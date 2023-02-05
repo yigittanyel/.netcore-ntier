@@ -8,6 +8,7 @@ namespace FishingApp.Entity.DTOs.Kullanici
 {
     public class KullaniciToUpdateDTO
     {
+        public int Id { get; set; }
         public string KullaniciAdi { get; set; }
         public string Ad { get; set; }
         public string Soyad { get; set; }

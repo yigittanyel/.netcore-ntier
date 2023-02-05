@@ -25,9 +25,9 @@ namespace FishingApp.Business.Services.Concrete
 
         public async Task<BirimDTO> AddBirim(BirimToAddDTO birimToAddDTO)
         {
-            var addedUser = await _birimRepository.Add(_mapper.Map<Birim>(birimToAddDTO));
+            var addedBirim = await _birimRepository.Add(_mapper.Map<Birim>(birimToAddDTO));
 
-            return _mapper.Map<BirimDTO>(addedUser);
+            return _mapper.Map<BirimDTO>(addedBirim);
         }
 
         public async Task DeleteBirim(int birimId)

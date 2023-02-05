@@ -8,7 +8,7 @@ builder.Services.AddControllersWithViews();
 
 #region Eklenen Kýsýmlar
 builder.Services.LoadDataLayerExtension(builder.Configuration);
-builder.Services.LoadBusinessLayerExtension();
+builder.Services.LoadBusinessLayerExtension(builder.Configuration);
 builder.Services.AddHttpContextAccessor();
 #endregion
 

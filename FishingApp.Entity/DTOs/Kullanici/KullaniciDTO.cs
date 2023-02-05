@@ -18,5 +18,6 @@ namespace FishingApp.Entity.DTOs.Kullanici
         public string Sifre { get; set; }
         public string Rol { get; set; }
         public int? BirimId { get; set; }
+        public string Token { get; set; }
     }
 }

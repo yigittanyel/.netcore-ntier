@@ -18,11 +18,18 @@ namespace FishingApp.DataAccess.Extensions
     {
         public static IServiceCollection LoadDataLayerExtension(this IServiceCollection services, IConfiguration config)
         {
-            services.AddScoped(typeof(IGenericRepository<>), typeof(GenericRepository<>));
             services.AddDbContext<ApplicationDbContext>(opt => opt.UseSqlServer(config.GetConnectionString("cnnstr")));
 
+            services.AddScoped(typeof(IGenericRepository<>), typeof(GenericRepository<>));
             services.AddScoped<IBirimRepository, BirimRepository>();
+            services.AddScoped<IGrupRepository, GrupRepository>();
+            services.AddScoped<IKampanyaRepository, KampanyaRepository>();
+            services.AddScoped<IKampanyaSonucRepository, KampanyaSonucRepository>();
+            services.AddScoped<IKullaniciRepository, KullaniciRepository>();
+            services.AddScoped<ISablonRepository, SablonRepository>();
+
             services.AddScoped<IUnitOfWork, UnitOfWork>();
+
             return services;
         }
     }

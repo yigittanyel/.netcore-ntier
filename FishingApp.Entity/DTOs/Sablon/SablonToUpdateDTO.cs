@@ -8,6 +8,7 @@ namespace FishingApp.Entity.DTOs.Sablon
 {
     public class SablonToUpdateDTO
     {
+        public int Id { get; set; }
         public string SablonAdi { get; set; }
         public string İcerik { get; set; }
         public int? KullaniciId { get; set; }

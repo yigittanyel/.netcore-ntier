@@ -8,6 +8,7 @@ namespace FishingApp.Entity.DTOs.Kampanya
 {
     public class KampanyaToUpdateDTO
     {
+        public int Id { get; set; }
         public bool KampanyaDurumu { get; set; }
         public int? SablonId { get; set; }
         public virtual string? ModifiedBy { get; set; }
