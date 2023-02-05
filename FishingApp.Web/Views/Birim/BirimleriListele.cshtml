@@ -1,0 +1,34 @@
+﻿@using FishingApp.Entity.DTOs.Birim
+@model List<BirimDTO>
+
+@{
+    ViewData["Title"] = "BirimleriListele";
+}
+
+
+
+<link href="~/Content/bootstrap.min.css" rel="stylesheet" />
+<h2>Birimler</h2>
+
+<a href="/Kisi/YeniKisiEkle/" class="btn btn-success">Yeni Birim Ekle</a>
+<br />
+<br />
+<table class="table table-bordered">
+    <thead>
+        <tr>
+            <th scope="col">Birim Adı</th>
+            <th scope="col">Sil</th>
+            <th scope="col">Güncelle</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var x in Model)
+        {
+            <tr>
+                <td>@x.BirimAdi</td>
+                <td><a href="/Birim/KisiSil/@x.Id" class="btn btn-danger" onclick="return confirm('Silmek istediğinizden emin misiniz?');">Sil</a></td>
+                <td><a href="/Kisi/KisiGetir/@x.Id" class="btn btn-primary">Güncelle</a></td>
+            </tr>
+        }
+    </tbody>
+</table>

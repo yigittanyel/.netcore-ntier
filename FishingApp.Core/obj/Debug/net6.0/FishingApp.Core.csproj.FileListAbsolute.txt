@@ -1,0 +1,12 @@
+D:\repos\FishingApp\FishingApp.Core\bin\Debug\net6.0\FishingApp.Core.deps.json
+D:\repos\FishingApp\FishingApp.Core\bin\Debug\net6.0\FishingApp.Core.dll
+D:\repos\FishingApp\FishingApp.Core\bin\Debug\net6.0\FishingApp.Core.pdb
+D:\repos\FishingApp\FishingApp.Core\obj\Debug\net6.0\FishingApp.Core.csproj.AssemblyReference.cache
+D:\repos\FishingApp\FishingApp.Core\obj\Debug\net6.0\FishingApp.Core.GeneratedMSBuildEditorConfig.editorconfig
+D:\repos\FishingApp\FishingApp.Core\obj\Debug\net6.0\FishingApp.Core.AssemblyInfoInputs.cache
+D:\repos\FishingApp\FishingApp.Core\obj\Debug\net6.0\FishingApp.Core.AssemblyInfo.cs
+D:\repos\FishingApp\FishingApp.Core\obj\Debug\net6.0\FishingApp.Core.csproj.CoreCompileInputs.cache
+D:\repos\FishingApp\FishingApp.Core\obj\Debug\net6.0\FishingApp.Core.dll
+D:\repos\FishingApp\FishingApp.Core\obj\Debug\net6.0\refint\FishingApp.Core.dll
+D:\repos\FishingApp\FishingApp.Core\obj\Debug\net6.0\FishingApp.Core.pdb
+D:\repos\FishingApp\FishingApp.Core\obj\Debug\net6.0\ref\FishingApp.Core.dll
